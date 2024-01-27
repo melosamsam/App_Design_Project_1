@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AppDesignRepro</string>
+    <string name="titre">Find your suitable watch now.</string>
+    <string name="subtitle">Smart watch</string>
+    <string name="price4">$ 199</string>
+    <string name="price3">$ 299</string>
+    <string name="price2">$ 599</string>
+    <string name="price1">$ 799</string>
+    <string name="type4">Pro Series</string>
+    <string name="type3">All Series</string>
+    <string name="type2">Series 4</string>
+    <string name="type1">Series 7</string>
+    <string name="name4">Amazfit Bip U</string>
+    <string name="name3">Mi Watch</string>
+    <string name="name2">Galaxy Watch</string>
+    <string name="name1">Apple Watch</string>
+    <string name="white_square">White Square</string>
+    <string name="other_squares">Other smaller squares of different colors</string>
+    <string name="watch_picture">Pictures of the watch</string>
+    <string name="model1">Apple Watch Series 7</string>
+    <string name="model2">Galaxy Watch Series 4</string>
+    <string name="model3">Mi Watch All Series</string>
+    <string name="model4">Amazfit Bip U Pro Series</string>
+    <string name="description_model1">( With solo loop )</string>
+    <string name="large_description">The aluminium case is lightweight and made from 100 percent recycled aerospace grade alloy.</string>
+    <string name="large_description2">This model combines robustness and elegance with a classical design.</string>
+    <string name="large_description3">This model was specifically designed for sport use and will accompany you everywhere with its aluminium case.</string>
+    <string name="large_description4">Perfect for your daily life, this watch is compatible with most apps and will make everything easier !</string>
+    <string name="arrow">This is the arrow to go back to the previous page</string>
+    <string name="add">Add to cart</string>
+</resources>

@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="333dp"
+        android:layout_height="92dp"
+        android:fontFamily="@font/raleway_bold"
+        android:text="@string/titre"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="@id/guidelinev"
+        app:layout_constraintTop_toTopOf="@id/guidelineh3"
+        app:layout_constraintVertical_bias="0.207" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:fontFamily="@font/raleway_semibold"
+        android:text="@string/subtitle"
+        android:textColor="#5B41FF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/guidelinev"
+        app:layout_constraintTop_toTopOf="@id/guidelineh2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineh1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".366"
+        />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineh2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".305"
+        />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineh3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".185"
+        />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineh4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".64"
+        />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".075"
+        />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinev2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".526"
+        />
+
+
+
+    <!-- Carré 1 -->
+
+    <ImageButton
+        android:id="@+id/blanchautgauche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/white_square"
+        android:background="@drawable/whiterectangle"
+        android:elevation="6dp"
+        android:onClick="buttonClick"
+        app:layout_constraintStart_toStartOf="@id/guidelinev"
+        app:layout_constraintTop_toTopOf="@+id/guidelineh1"
+        app:srcCompat="@drawable/whiterectangle" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/other_squares"
+        android:elevation="24dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@id/blanchautgauche"
+        app:layout_constraintStart_toStartOf="@id/blanchautgauche"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1"
+        app:srcCompat="@drawable/orangerectangle" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:contentDescription="@string/watch_picture"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="8dp"
+        android:elevation="24dp"
+        app:layout_constraintEnd_toEndOf="@id/blanchautgauche"
+        app:layout_constraintStart_toStartOf="@id/blanchautgauche"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1"
+        app:srcCompat="@drawable/watch1" />
+    <TextView
+        android:id="@+id/nom1"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="125dp"
+        android:elevation="24dp"
+        android:fontFamily="@font/raleway_semibold"
+        android:text="@string/name1"
+        android:textColor="#1B153D"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/guidelinev"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1"
+        app:layout_editor_absoluteX="8dp"
+        app:layout_editor_absoluteY="125dp" />
+
+    <TextView
+        android:id="@+id/type1"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="152dp"
+        android:elevation="24dp"
+        android:fontFamily="@font/raleway_medium"
+        android:text="@string/type1"
+        android:textColor="#9095A6"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@id/guidelinev"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1"
+        app:layout_editor_absoluteX="8dp"
+        app:layout_editor_absoluteY="125dp" />
+
+    <TextView
+        android:id="@+id/prix1"
+        android:layout_width="100dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="186dp"
+        android:elevation="24dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/price1"
+        android:textColor="#5B41FF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/guidelinev"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1"
+        app:layout_editor_absoluteX="8dp"
+        app:layout_editor_absoluteY="125dp" />
+
+    <!-- Carré 2 -->
+
+    <ImageButton
+        android:id="@+id/blanchautdroite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="178dp"
+        android:background="@drawable/whiterectangle"
+        android:contentDescription="@string/white_square"
+        android:elevation="6dp"
+        android:onClick="buttonClick2"
+        app:layout_constraintStart_toStartOf="@id/guidelinev"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1"
+        app:srcCompat="@drawable/whiterectangle" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/other_squares"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="8dp"
+        android:elevation="24dp"
+        app:layout_constraintEnd_toEndOf="@id/blanchautdroite"
+        app:layout_constraintStart_toStartOf="@id/blanchautdroite"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1"
+        app:srcCompat="@drawable/salmonrectangle" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/watch_picture"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="8dp"
+        android:elevation="24dp"
+        app:layout_constraintEnd_toEndOf="@id/blanchautdroite"
+        app:layout_constraintStart_toStartOf="@id/blanchautdroite"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1"
+        app:srcCompat="@drawable/watch2" />
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="105dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="125dp"
+        android:elevation="24dp"
+        android:fontFamily="@font/raleway_semibold"
+        android:text="@string/name2"
+        android:textColor="#1B153D"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/guidelinev"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1"
+        app:layout_editor_absoluteX="8dp"
+        app:layout_editor_absoluteY="125dp" />
+
+    <TextView
+        android:id="@+id/type2"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="152dp"
+        android:elevation="24dp"
+        android:fontFamily="@font/raleway_medium"
+        android:text="@string/type2"
+        android:textColor="#9095A6"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@id/guidelinev"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1"
+        app:layout_editor_absoluteX="8dp"
+        app:layout_editor_absoluteY="125dp" />
+
+    <TextView
+        android:id="@+id/prix2"
+        android:layout_width="100dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="186dp"
+        android:elevation="24dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/price2"
+        android:textColor="#5B41FF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/guidelinev"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1" />
+
+    <!-- Carré 3 -->
+
+    <ImageButton
+        android:id="@+id/blancbasgauche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="233dp"
+        android:background="@drawable/whiterectangle"
+        android:contentDescription="@string/white_square"
+        android:elevation="6dp"
+        android:onClick="buttonClick3"
+        app:layout_constraintStart_toStartOf="@id/guidelinev"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1"
+        app:srcCompat="@drawable/whiterectangle" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/other_squares"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="241dp"
+        android:elevation="24dp"
+        app:layout_constraintEnd_toEndOf="@id/blancbasgauche"
+        app:layout_constraintStart_toStartOf="@id/blancbasgauche"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1"
+        app:srcCompat="@drawable/brownrectangle" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/watch_picture"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="241dp"
+        android:elevation="24dp"
+        app:layout_constraintEnd_toEndOf="@id/blancbasgauche"
+        app:layout_constraintStart_toStartOf="@id/blancbasgauche"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1"
+        app:srcCompat="@drawable/watch3" />
+
+    <TextView
+        android:id="@+id/name3"
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="358dp"
+        android:elevation="24dp"
+        android:fontFamily="@font/raleway_semibold"
+        android:text="@string/name3"
+        android:textColor="#1B153D"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/guidelinev"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1" />
+
+    <TextView
+        android:id="@+id/type3"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="385dp"
+        android:elevation="24dp"
+        android:fontFamily="@font/raleway_medium"
+        android:text="@string/type3"
+        android:textColor="#9095A6"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@id/guidelinev"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1" />
+
+    <TextView
+        android:id="@+id/prix3"
+        android:layout_width="100dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="419dp"
+        android:elevation="24dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/price3"
+        android:textColor="#5B41FF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/guidelinev"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1"/>
+
+    <!-- Carré 4 -->
+
+    <ImageButton
+        android:id="@+id/blancbasdroite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="233dp"
+        android:background="@drawable/whiterectangle"
+        android:clipToPadding="false"
+        android:contentDescription="@string/white_square"
+        android:elevation="6dp"
+        android:onClick="buttonClick4"
+        android:stateListAnimator="@null"
+        android:translationZ="8dp"
+        app:layout_constraintStart_toStartOf="@id/guidelinev"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1"
+        app:srcCompat="@drawable/whiterectangle" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/other_squares"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="241dp"
+        android:elevation="24dp"
+        app:layout_constraintEnd_toEndOf="@id/blancbasdroite"
+        app:layout_constraintStart_toStartOf="@id/blancbasdroite"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1"
+        app:srcCompat="@drawable/pinkrectangle" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/watch_picture"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="241dp"
+        android:elevation="24dp"
+        app:layout_constraintEnd_toEndOf="@id/blancbasdroite"
+        app:layout_constraintStart_toStartOf="@id/blancbasdroite"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1"
+        app:srcCompat="@drawable/watch4" />
+
+    <TextView
+        android:id="@+id/name4"
+        android:layout_width="105dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="358dp"
+        android:elevation="24dp"
+        android:fontFamily="@font/raleway_semibold"
+        android:text="@string/name4"
+        android:textColor="#1B153D"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/guidelinev"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1" />
+
+    <TextView
+        android:id="@+id/type4"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="385dp"
+        android:elevation="24dp"
+        android:fontFamily="@font/raleway_medium"
+        android:text="@string/type4"
+        android:textColor="#9095A6"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@id/guidelinev"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1" />
+
+    <TextView
+        android:id="@+id/prix4"
+        android:layout_width="100dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="419dp"
+        android:elevation="24dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/price4"
+        android:textColor="#5B41FF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/guidelinev"
+        app:layout_constraintTop_toTopOf="@id/guidelineh1"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
