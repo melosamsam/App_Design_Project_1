@@ -5,7 +5,7 @@ This project aims to reproduce a Figma design of a watch store application provi
 I have chosen this design among the 4 proposed as it was one that allowed me to play with interactivity and create different pages and I liked the clean design.
 I decided to use XML on Android Studio for this project as it seemed like the easiest option. It seemed easier as it resembles html in its structure and I had a previous experience with html.
 For the pages I decided to keep the font and size fonts fixed regardless of the screen size in order to stick to the original design's characteristics.
-In order to have a neat program, every string is defined in the string folder and every shape and image created are located in the same drawable folder.
+In order to have a neat program, every string is defined in the string folder and every shape and image created are located in the same drawable folder. The exact fonts have been imported and are located in the fonts folder.
 The elements have been constrained according to percentages in order for the layout to adapt to the screen size.
 The colors have been respected using the exact hexa code found on the original Figma design. In order to see each white rectangle better, a shadow has been added using the elevation.
 
@@ -30,7 +30,7 @@ Ce projet a pour but de reproduire un design Figma proposé par le professeur.
 J'ai choisi ce design parmi ceux proposés car il me permettait de jouer avec l'interactivité de plusieurs pages et j'aimais son design épuré.
 J'ai décidé d'utiliser XML sur Android Studio pour ce projet car cela me semblait la solution la plus simple. La structure d'XML étant semblable à celle de html avec lequel j'ai déjà de l'expérience, cette solution semblait plus efficace.
 Pour les différentes pages, j'ai choisi de conservé la police et taille de police exact donné dans le design Figma original afin de coller le plus possible à ce design original, même si ceux-ci ne s'adapteront donc pas aux différentes tailles d'écran. J'ai cependant fait le choix de contraindre les différents éléments des pages en utilisant des pourcentages pour que le layout s'adapte à la taille de l'écran. 
-Afin d'avoir un programme bien organisé et clean, chacun des strings a été défini dans le dossier string et chaque forme et image se trouve dans le dossier drawable. 
+Afin d'avoir un programme bien organisé et clean, chacun des strings a été défini dans le dossier string et chaque forme et image se trouve dans le dossier drawable. Les polices exacts ont été importés et sont situés dans le dossier fonts.
 Les couleurs ont été respectée en utilisant le code hexa exact provenant du design Figma. Afin de mieux voir les rectangles blancs, une ombre a été créé en jouant avec l'élévation.
 
 ![image](https://github.com/melosamsam/App_Design_Project_1/assets/103419843/e0a28b5c-23a9-4924-b5ae-fba040e7f48d)
