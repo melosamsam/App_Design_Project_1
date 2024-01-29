@@ -36,16 +36,16 @@ Les couleurs ont été respectée en utilisant le code hexa exact provenant du d
 
 ![image](https://github.com/melosamsam/App_Design_Project_1/assets/103419843/e0a28b5c-23a9-4924-b5ae-fba040e7f48d)
 
-Ce projet est intéractif, on peut cliquer sur un modèle afin d'obtenir les charactéristiques de la montre.
+Ce projet est intéractif, on peut cliquer sur un modèle afin d'obtenir les caractéristiques de la montre.
 Les rectangles blancs sont des ImageButton, ce sont eux que l'on clique afin d'atteindre les pages des spécificités.
 
 ![image](https://github.com/melosamsam/App_Design_Project_1/assets/103419843/58fdf224-1842-4bfd-a627-ef6e2f1e0faf)
 
-La flèche de retour de chacune des pages de charactéristiques fonctionne. Donc si un modèle ne vous convient pas, pas d'inquiétude ! Il suffit d'utiliser cette flèche et retourner au menu principal. On peut alors choisir un autre modèle. 
+La flèche de retour de chacune des pages de caractéristiques fonctionne. Donc si un modèle ne vous convient pas, pas d'inquiétude ! Il suffit d'utiliser cette flèche et retourner au menu principal. On peut alors choisir un autre modèle. 
 
 ![image](https://github.com/melosamsam/App_Design_Project_1/assets/103419843/672a03a9-31b2-4fa9-a497-8a16baaf2cb8)
 
-Chacune des pages de charactéristiques contient une description personnalisée à chaque montre.
+Chacune des pages de caractéristiques contient une description personnalisée à chaque montre.
 Les boutons "Add to cart" ont été coloré en utilisant un gradient afin de reproduire au mieux le design original.
 
 
